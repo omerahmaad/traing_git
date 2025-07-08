@@ -41,7 +41,7 @@ References:
 4. Commit the changes into the `main` branch
 5. If not step 3), change a file inside the folder [labs](/labs) and commit the changes into the `main` branch
 6. Go to `Actions` and see the details of your running workflow
-
+# Changes Made
 ## 1.3 Final
 <details>
   <summary>github-actions-demo.yml</summary>
