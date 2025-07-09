@@ -52,6 +52,11 @@ jobs:
         with:
           name: output-log-file-${{matrix.node-version }}-${{ matrix.os }}
           path: output.log
+      - name: Download a single artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: output-log-file
+
   # If both linting and CI succeeds we want to deploy the code to a test environment
   deploy-test:
     name: Deploy to test env
