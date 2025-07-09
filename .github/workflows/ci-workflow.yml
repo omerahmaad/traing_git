@@ -69,7 +69,7 @@ jobs:
       - name: Download a single artifact
         uses: actions/download-artifact@v4
         with:
-          name: output-log-file
+          name: output-log-file-16-windows-latest
 
       # Placeholder - this step would be some action or run commands that deploys the code
       - name: Deploy to test env
