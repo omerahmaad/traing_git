@@ -50,7 +50,7 @@ jobs:
       - name: Upload output file
         uses: actions/upload-artifact@v4
         with:
-          name: output-log-file
+          name: output-log-file-${{matrix.node-version }}-${{ matrix.os }}
           path: output.log
   # If both linting and CI succeeds we want to deploy the code to a test environment
   deploy-test:
